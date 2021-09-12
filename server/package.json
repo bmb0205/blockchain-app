@@ -1,0 +1,30 @@
+{
+  "name": "crypto-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "node server.js"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true
+  },
+  "keywords": [],
+  "author": "Brandon Burciaga",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ipfs-api": "^26.1.2",
+    "mongodb": "^4.1.1",
+    "short-id": "0.1.0-1",
+    "socket.io": "^2.3.0",
+    "truffle-contract": "^4.0.31",
+    "web3": "^1.3.0"
+  }
+}
